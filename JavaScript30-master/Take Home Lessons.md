@@ -11,6 +11,7 @@
   - To be able to press a button multiple times and hear it restart we need to reset the audio currentTime back to 0
 - QuerySelector
   - Same approach as CSS
+  - Returns a node list -> which looks like an array but has functions eg. map, reduce
   - document.querySelector(`audio[data-key="${event.keyCode}"]`)
   - document.querySelector(`.key[data-key="${event.keyCode}"]`)
 - Event listeners
@@ -30,3 +31,9 @@
     - `Element.style.property = ''` resets the styling back to the original CSS stylesheet
 
 ### 03 -
+
+- CSS
+  - You now can have variables in css
+  - Use --varname to use (standard to be backwards compatable)
+  - **dataset** is an object you don't have to use an attribute selector
+    - It takes any property that has **data-** on the element and put it into an object
