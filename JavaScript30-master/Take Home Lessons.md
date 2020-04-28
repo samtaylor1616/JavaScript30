@@ -21,4 +21,12 @@
 
 --
 
-### 02 -
+### 02 - Clock
+
+- CSS
+  - transform: rotate(330deg) rotates the object in the middle
+    - We want to rotate the hands on the clock for the right end of the object
+    - Update the transform origin
+    - `Element.style.property = ''` resets the styling back to the original CSS stylesheet
+
+### 03 -

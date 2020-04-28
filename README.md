@@ -1,3 +1,3 @@
-## JavaScript30 
+## JavaScript30
 
-30 day vanilla JS coding challenge from javascript30.com
+30 vanilla JS coding challenges from javascript30.com by Wes Bos
