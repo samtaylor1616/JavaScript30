@@ -1,6 +1,6 @@
 ## JavaScript30
 
-![](./Images/Home page.png)
+![](./Images/HomePage.png)
 
 30 vanilla JS coding challenges by [Wes Bos](javascript30.com)
 
