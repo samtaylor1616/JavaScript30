@@ -30,7 +30,7 @@
     - Update the transform origin
     - `Element.style.property = ''` resets the styling back to the original CSS stylesheet
 
-### 03 -
+### 03 - CSS Variables & Modifying at Runtime
 
 - CSS
   - You now can have variables in css
