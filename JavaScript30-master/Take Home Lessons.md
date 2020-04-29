@@ -37,3 +37,15 @@
   - Use --varname to use (standard to be backwards compatable)
   - **dataset** is an object you don't have to use an attribute selector
     - It takes any property that has **data-** on the element and put it into an object
+
+### 04 - Array Cardio Day 1
+
+- Console
+  - Instead of using console.log you can use console.table to show a formatted array
+- Filter
+  - You only need to return true, nothing is falsy
+- Map
+  - Returns you the same length array your iterated over
+- Reduce
+  - `arr.reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
+  - obj[someKey]
