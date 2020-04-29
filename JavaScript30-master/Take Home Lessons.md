@@ -49,3 +49,11 @@
 - Reduce
   - `arr.reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
   - obj[someKey]
+
+### 05 - Flex Panels Image Gallery
+
+- Toggle
+  - Instead of adding and removing a property use the toggle `this.classList.toggle`
+- Flexbox
+- nth-child selector
+  - .panel p:nth-child(2)
