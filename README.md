@@ -1,4 +1,4 @@
-## JavaScript30
+## JavaScript30 By [Wes Bos](javascript30.com)
 
 ![](./Images/HomePage.png)
 
