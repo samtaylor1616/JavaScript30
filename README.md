@@ -11,4 +11,4 @@
 | 3. CSS variables & updating at runtime | ![](./Images/cssVarables.png) |
 | 4. Array Cardio Day 1 | Console only learning different functions to use on arrays |
 | 5. Flex Panels Image Gallery | ![](./Images/flexA.png) ![](./Images/flexB.png) |
-| 6. Population - Ajax Type Ahead | ![](./Images/popA.png) ![](./Images/popB.png) |
+| 6. Population - Ajax Type Ahead | ![](./Images/PopA.png) ![](./Images/PopB.png) |
