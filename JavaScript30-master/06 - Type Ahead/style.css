@@ -6,7 +6,9 @@ html {
   font-weight: 200;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -57,12 +59,12 @@ input.search {
 
 .suggestions li:nth-child(even) {
   transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-  background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #EFEFEF 100%);
 }
 
 .suggestions li:nth-child(odd) {
   transform: perspective(100px) rotateX(-3deg) translateY(3px);
-  background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+  background: linear-gradient(to top, #ffffff 0%, #EFEFEF 100%);
 }
 
 span.population {
@@ -71,4 +73,16 @@ span.population {
 
 .hl {
   background: #ffc600;
+}
+
+.title {
+  text-align: center;
+  margin: 1em;
+  color: white;
+  /* text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black; */
+  text-shadow: 0 0 3px #000;
+  font-size: 42px;
 }

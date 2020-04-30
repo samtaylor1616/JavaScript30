@@ -57,3 +57,18 @@
 - Flexbox
 - nth-child selector
   - .panel p:nth-child(2)
+
+### 06 - Population: Ajax Type Ahead
+
+- Regex:
+  - new Regex(wordToMatch, 'gi')
+  - Flags:
+    - g stands for global, looks in the entire string
+    - i is case incensitive
+- Input boxes
+  - .value to get the text input
+- Events
+  - Change event only runs once a user clicks off of the input field
+  - That is why we needed to include the _keyup_ event
+- InnerHTML
+  - ulElement.innerHTML = `li element string of formatted HTML`
