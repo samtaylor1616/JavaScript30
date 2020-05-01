@@ -72,3 +72,19 @@
   - That is why we needed to include the _keyup_ event
 - InnerHTML
   - ulElement.innerHTML = `li element string of formatted HTML`
+
+### 07 - Array Cardio Day 2
+
+- Array.prototype.some()
+  - Checks that at least one element in the array meets your requirement
+- Array.prototype.every()
+  - Checks that at every single element in the array meets your requirement
+- Array.prototype.find()
+  - Similar to filter but instead just returns the first element you match
+- Array.prototype.findIndex()
+  - Find the index of the first element you match
+  - eg. `const index = comments.findIndex(comment => comment.id === 823423);`
+- Console.log if you put console.log({isAdult}) it will print the the variable name and the value
+- Two ways to delete an element from an array with the index
+  - `array.splice(index, 1);`
+  - `const newComments = [...comments.slice(0, index), ...comments.slice(index + 1)]`
