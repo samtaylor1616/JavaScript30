@@ -88,3 +88,20 @@
 - Two ways to delete an element from an array with the index
   - `array.splice(index, 1);`
   - `const newComments = [...comments.slice(0, index), ...comments.slice(index + 1)]`
+
+### 05 - HTML5 Canvas
+
+- You get a block of pixels and draw on the context
+  - Context can either be 2D or 3D
+- ES6 ~ Destructing an array -> set multiple variables in one line
+  - `[lastX, lastY] = [event.offsetX, event.offsetY];`
+- https://mothereffinghsl.com/ hsl()
+  - Rainbow
+  - H -> Hue
+  - S -> Saturation
+  - L -> Lightness
+- Blend modes
+  - ctx.globalCompositeOperation
+  - Different types of blends https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
+- mouseout event
+  - When the mouse moves off the window
