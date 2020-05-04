@@ -16,3 +16,4 @@
 | 8.HTML5 Canvas | ![](./Images/canvas.png) ![](./Images/canvasB.png) |
 | 9. Dev Tool Tricks | ![](./Images/console.png) ![](./Images/grouping.png) |
 | 10. Hold shift to check multiple checkboxes | ![](./Images/multipleCheckboxes.png) |
+| 11. Custom HTML5 Video Player | ![](./Images/videoPlayer.png) |

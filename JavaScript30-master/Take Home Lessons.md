@@ -143,3 +143,19 @@
 ### 10 - Hold Shift to Check Multiple Checkboxes
 
 - event.shiftKey is true if the shift key is being pressed
+
+### 11 - Custome HTML5 Video Player
+
+- Video has a boolean valued paused and two functions -> play and pause
+- To update a buttons display use its textContent
+- Use parseFloat to convert a string to a number value
+- Responsive sliders
+  - Use event listeners on both the change and mousemove events
+- Attributes
+  - With our ranges we named the HTML elements their associated attributes they were updating so we could simply go `video[this.name] = this.value;`
+- Updating the progress bar of the video
+  - Use timeupdate event or progress to call the update method rather than a timer to call your function every second
+  - When it is paused then it won't unnecessarily be calling your update function
+- Clicking and dragging
+  - Instead of `progress.addEventListener('mousemove', scrub);`
+  - Use a mousedown flag to make the target function only run after the user has clicked down, not just when they hover over the element
