@@ -15,3 +15,4 @@
 | 7. Array Cardio Day 2 | Console only learning different functions to use on arrays (some, every, find, findIndex, deleting)|
 | 8.HTML5 Canvas | ![](./Images/canvas.png) ![](./Images/canvasB.png) |
 | 9. Dev Tool Tricks | ![](./Images/console.png) ![](./Images/grouping.png) |
+| 10. Hold shift to check multiple checkboxes | ![](./Images/multipleCheckboxes.png) |

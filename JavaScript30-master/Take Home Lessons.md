@@ -139,3 +139,7 @@
     - Counts how long something takes
     - console.time(label);
     - console.timeEnd(label);
+
+### 10 - Hold Shift to Check Multiple Checkboxes
+
+- event.shiftKey is true if the shift key is being pressed
