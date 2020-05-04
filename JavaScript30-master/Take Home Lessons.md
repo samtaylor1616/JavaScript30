@@ -89,7 +89,7 @@
   - `array.splice(index, 1);`
   - `const newComments = [...comments.slice(0, index), ...comments.slice(index + 1)]`
 
-### 05 - HTML5 Canvas
+### 08 - HTML5 Canvas
 
 - You get a block of pixels and draw on the context
   - Context can either be 2D or 3D
@@ -105,3 +105,37 @@
   - Different types of blends https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
 - mouseout event
   - When the mouse moves off the window
+
+### 09 - Dev Tool Tricks
+
+- Using onClick=someFunction() is equalivant to setting up event listener
+- Finding where the javascript is running that is causing changes
+  - Inspect the element that is changing
+  - Right click -> break on -> attribute modifications
+  - When you cause the modification to occur it will pause and show a debuger console
+  - When finished you can uncheck the attribute modifications break point
+- Console
+  - Interpolated
+    - Pass in values to to print
+    - Now in ES6 we use backticks `'some string ${blah}'`
+  - Styled
+    - If you put `%c` in front of your output, then you can apply any CSS to it
+  - Warning & Error
+    - Also provides a stack trace of where it got called
+  - Assert
+    - Used for testing
+    - It will only run if the assertion is wrong
+  - Clear
+    - Refreshes the console
+  - Viewing DOM elements
+    - console.dir(some js element) will give you the drop down of all the methods
+    - Console.log will only show you the actual element itself
+  - Group
+    - Use console.group or groupCollapsed with groupEnd to contain multiple console logs
+    - Naming the groups make it easier to see which information belongs where
+  - Count
+    - Counts how many times that element has appeared
+  - Time
+    - Counts how long something takes
+    - console.time(label);
+    - console.timeEnd(label);

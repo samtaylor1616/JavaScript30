@@ -13,4 +13,5 @@
 | 5. Flex Panels Image Gallery | ![](./Images/flexA.png) ![](./Images/flexB.png) |
 | 6. Population - Ajax Type Ahead | ![](./Images/PopA.png) ![](./Images/PopB.png) |
 | 7. Array Cardio Day 2 | Console only learning different functions to use on arrays (some, every, find, findIndex, deleting)|
-| 8.HTML5 Canvas | ![](./Images/canvas.png) ![](./Images/canvasB.png)
+| 8.HTML5 Canvas | ![](./Images/canvas.png) ![](./Images/canvasB.png) |
+| 9. Dev Tool Tricks | ![](./Images/console.png) ![](./Images/grouping.png) |
