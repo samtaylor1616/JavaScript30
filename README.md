@@ -20,3 +20,4 @@
 | 12. Key Sequence Detection | ![](./Images/keyDetectA.png) ![](./Images/keyDetectB.png) |
 | 13. Slide In on Scroll | ![](./Images/scrollA.png) ![](./Images/scrollB.png) |
 | 14. Objects and Arrays | Learned different methods of copying objects and arrays |
+| 15. LocalStorage and Event Delegation | ![](./Images/localA.png) ![](./Images/localB.png) |

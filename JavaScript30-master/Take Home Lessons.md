@@ -205,3 +205,34 @@
   3. `const dev2 = JSON.parse(JSON.stringify(sam));`
 - Note: Arrays and objects copies are shallow -> it is only 1 level deep
   - lodash has a cloneDeep method but check that you actually need to do that because it is very rare that you need to copy that deep
+
+### 15 - LocalStorage and Event Delegation
+
+- Submit event
+  - Instead of using the on click event use on submit so if a used submits a form and presses enter your event listener picks up on it
+- Form
+  - Submit/refresh the page by default -> `event.preventDefault()`
+  - Clear a form once submitted -> `this.reset` where this is the form
+- Map()
+  - ``plates.map((plate, ii) => ...` where ii is the curent index
+- Checkbox
+  - Can't use the checked attribute as `checked=false`
+  - Instead if it it checked you add the attribute `checked`
+  - Otherwise you leave it blank
+- localStorage
+  - Object in the browser
+  - Contains a list of things that have been saved in the current domain
+  - `localStorage.setItem(key, value)`, `localStorage.getItem()`, `localStorage.removeItem()`
+  - It looks like an object, **however it is only a key, value store where you can only use strings**
+    - To convert your objects and arrays use `JSON.stringify()`
+    - When retreiving these objects and arrays you can use `JSON.parse()` to reverse it
+- Try and get it from local storage, if it isn't there fallback to an empty array
+  - `const items = JSON.parse(localStorage.getItem('items')) || [];`
+- Inputs that are creating after we listen to them don't actually have those event listeners attached
+  - Solution: Event Delegation
+  - Rather than listening for a click on change on the text boxes directly, we can look for something that already exists on the page eg. the **ul** that contains our list elements
+    - Listen for a click on the ul and then figure out if they clicked on the checkbox inside of it
+  - Basically the parent listens for the event and then passes the event onto the children to respond to
+  - We check if the event is for the target we wanted in the toggleDown function
+    - `if (!e.target.matches('input')) return;`
+- Every time we make a change we mirror that to local storage and then rerender the list
