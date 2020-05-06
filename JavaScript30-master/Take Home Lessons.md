@@ -185,3 +185,23 @@
 - Window
   - window.scrollY gives how many pixels down we are using the top of the browser as a reference
   - use window.scrollY- window.innerHeight to give us where we are in the page referencing the bottom
+
+### 14 - Objects and Arrays
+
+- Strings, numbers, booleans
+  - Passed by value - if you change the original the it will **not** update the other ones
+- Arrays, objects
+  - Passed by reference - when you update any reference to the array the value reference by all the arrays is updated
+- Copying arrays
+  1. `arr2 = arr1.slice()`
+  2. `arr3 = [].concat(arr1);` take an empty array and concatinate it
+  3. `arr4 = [...arr1];` using the new ES6 spread
+- Copying objects
+  1. `const cap2 = Object.assign({}, person, {number: 99, age: 12 });`
+  - the {} starts a new empty object
+  - person is the object we want to copy from
+  - the next object is other fields we want to add in or update
+  2. `const cap3 = {...person};` object ...spread
+  3. `const dev2 = JSON.parse(JSON.stringify(sam));`
+- Note: Arrays and objects copies are shallow -> it is only 1 level deep
+  - lodash has a cloneDeep method but check that you actually need to do that because it is very rare that you need to copy that deep

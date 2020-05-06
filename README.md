@@ -19,3 +19,4 @@
 | 11. Custom HTML5 Video Player | ![](./Images/videoPlayer.png) |
 | 12. Key Sequence Detection | ![](./Images/keyDetectA.png) ![](./Images/keyDetectB.png) |
 | 13. Slide In on Scroll | ![](./Images/scrollA.png) ![](./Images/scrollB.png) |
+| 14. Objects and Arrays | Learned different methods of copying objects and arrays |
