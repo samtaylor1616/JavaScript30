@@ -175,3 +175,13 @@
 - String.prototype.includes()
   - Determines if one string is found within another
   - `sentence.includes(word)`
+
+### 13 - Slide In on Scroll
+
+- With scrolling it fires the event a lot. It is too much to call an event every time this event is fired
+  - Use a **debounce function** to limit the amount of times we call the function
+- Optional parameters
+  - `function debounce(func, wait = 20, immediate = true {}`
+- Window
+  - window.scrollY gives how many pixels down we are using the top of the browser as a reference
+  - use window.scrollY- window.innerHeight to give us where we are in the page referencing the bottom

@@ -18,3 +18,4 @@
 | 10. Hold shift to check multiple checkboxes | ![](./Images/multipleCheckboxes.png) |
 | 11. Custom HTML5 Video Player | ![](./Images/videoPlayer.png) |
 | 12. Key Sequence Detection | ![](./Images/keyDetectA.png) ![](./Images/keyDetectB.png) |
+| 13. Slide In on Scroll | ![](./Images/scrollA.png) ![](./Images/scrollB.png) |
