@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Key Detection</title>
   <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
+
 <body>
-<script>
-</script>
+
+  <h1 class="title">Try me</h1>
+
+  <div class="container">
+    <p class="arrow up" />
+    <p class="arrow down" />
+    <p class="arrow right" />
+    <p class="arrow down" />
+    <p class="arrow left" />
+  </div>
+
+  <script>
+    const secretCode = 'ArrowUpArrowDownArrowRightArrowDownArrowLeft';
+    let pressed = [];
+    window.addEventListener('keyup', (e) => {
+      console.log(e.key);
+      pressed.push(e.key);
+      pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+      if (pressed.join('').includes(secretCode)) {
+        console.log('DING DING!');
+        cornify_add();
+        pressed = [];
+      }
+    });
+  </script>
+
+  <style>
+    html {
+      box-sizing: border-box;
+      background: #ffc600;
+      font-family: 'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .title {
+      margin: 2em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .container {
+      display: flex;
+      margin: 2em;
+    }
+
+    .arrow {
+      font-size: 3em;
+      border-style: solid;
+      flex: 1;
+      text-align: center;
+    }
+
+    .up::before {
+      content: "↑";
+    }
+
+    .down::before {
+      content: "↓";
+    }
+
+    .left::before {
+      content: "←";
+    }
+
+    .right::before {
+      content: "→";
+    }
+  </style>
 </body>
+
 </html>

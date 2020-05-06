@@ -159,3 +159,19 @@
 - Clicking and dragging
   - Instead of `progress.addEventListener('mousemove', scrub);`
   - Use a mousedown flag to make the target function only run after the user has clicked down, not just when they hover over the element
+
+### 12 - Key Sequence Detection (KONAMI CODE)
+
+- Splice vs Slice
+  - splice() returns the removed items in an array
+  - slice() returns the selected elements in an array, as a new array
+  - Splice changes the original array
+  - Slice doesn't change the original array
+- Splice
+  - Just like python use -negative values to work from the right to left
+- Use str.length to get the length of a string
+- Convert an array to a string
+  - myArray.join('')
+- String.prototype.includes()
+  - Determines if one string is found within another
+  - `sentence.includes(word)`
