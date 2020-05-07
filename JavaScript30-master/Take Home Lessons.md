@@ -249,3 +249,11 @@
 - Position of your cursor on an element
   - Cursor is at event.offsetWidth, event.offsetHeight
   - However if you have nested items inside of the element then you have to normalise it
+
+### 17 - Sorting Band Names Without Articles
+
+- Sorting without taking into consideration of 'The', 'An', or 'A'
+  - Use a regular expression
+  - `^` starts with
+  - `bandName.replace(/^(a |the |an )/i, '').trim();`
+    - Note the spacing is important
