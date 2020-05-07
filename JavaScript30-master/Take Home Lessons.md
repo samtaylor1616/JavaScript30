@@ -257,3 +257,11 @@
   - `^` starts with
   - `bandName.replace(/^(a |the |an )/i, '').trim();`
     - Note the spacing is important
+
+### 18 - Tally String Times With Reduce
+
+- Convert nodelist to array
+  - `Array.from(category.querySelectorAll('a'));`
+- `const [mins, seconds] = timeCode.split(':');`
+- Convert string array to number array
+  - `timeCode.split(':').map(parseFloat)`
