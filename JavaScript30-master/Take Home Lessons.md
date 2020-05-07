@@ -236,3 +236,16 @@
   - We check if the event is for the target we wanted in the toggleDown function
     - `if (!e.target.matches('input')) return;`
 - Every time we make a change we mirror that to local storage and then rerender the list
+
+### 16 - CSS Text Shadow Mouse Move Effect
+
+- Content Editable
+  - `<h1 contenteditable="">🔥WOAH!</h1>`
+  - Makes the html page editable
+- ES6 Destructoring:
+  - This `const width = hero.offsetWidth; const height = hero.offsetHeight;`
+  - Is equalivant to `const { offsetWidth: width, offsetHeight: height } = hero;`
+    - hero.offsetWidth, hero.offsetHeight
+- Position of your cursor on an element
+  - Cursor is at event.offsetWidth, event.offsetHeight
+  - However if you have nested items inside of the element then you have to normalise it

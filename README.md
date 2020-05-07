@@ -21,3 +21,4 @@
 | 13. Slide In on Scroll | ![](./Images/scrollA.png) ![](./Images/scrollB.png) |
 | 14. Objects and Arrays | Learned different methods of copying objects and arrays |
 | 15. LocalStorage and Event Delegation | ![](./Images/localA.png) ![](./Images/localB.png) |
+| 16. CSS Text Shadow Mouse Move Effect | ![](./Images/shadowA.png) ![](./Images/shadowB.png) ![](./Images/shadowC.png)
