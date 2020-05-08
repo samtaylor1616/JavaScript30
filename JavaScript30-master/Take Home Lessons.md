@@ -265,3 +265,29 @@
 - `const [mins, seconds] = timeCode.split(':');`
 - Convert string array to number array
   - `timeCode.split(':').map(parseFloat)`
+
+### 19 - Unreal Webcam Fun
+
+- Browser-sync node module
+  - Module for opening up website on a server (local)
+  - Live reloading
+- Retrieving video
+  - `navigator.mediaDevices.getUserMedia({ video: true, audio: false }) <- returns a promise`
+  - Deprecated: `video.src = window.URL.createObjectURL(localMediaStream);`
+  - Instead use: `video.srcObject = localMediaStream;`
+- Painting to canvas
+  - Need to make sure canvas is same size as video
+  - Pass the `context.drawImage(video, 0, 0, width, height)`
+    - 0, 0 means start at the top left hand of the canvas
+  - Using `video.addEventListener('canplay', paintToCanvas);` means that once our video is playing which emits an event called canplay which means we can now start the canvas
+- `setInterval(() => someFunction, 16);` will call someFunction every 16 milliseconds
+- Taking a photo
+  1. Retrieve the picture from the canvas
+  2. Create a new anchor link element
+  3. Set the attribute 'download' to whatever name you want the photo to be
+- Photo Filters
+  1. Take pixels out of canvas - For every one pixel there are 4 entries in the array that describe the color -> red, green, blue, alpha
+  2. Apply filters
+  3. Put pixels back in
+  - `ctx.globalAlpha = 0.1;` writes the new canvas on top of the last 10 frames
+  - If you want the pixel to be transparent set alpha of pixel to 0
