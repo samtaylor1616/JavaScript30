@@ -25,3 +25,4 @@
 | 17. Sorting without articles | ![](./Images/bands.png) |
 | 18. Tally String Times With Reduce | Used reduce to total the total video times |
 | 19. Unreal Webcam Fun | ![](./Images/cameraA.png) |
+| 20. Native Speech Recognition | ![](./Images/voice.png) |

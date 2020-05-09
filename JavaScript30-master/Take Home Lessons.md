@@ -291,3 +291,30 @@
   3. Put pixels back in
   - `ctx.globalAlpha = 0.1;` writes the new canvas on top of the last 10 frames
   - If you want the pixel to be transparent set alpha of pixel to 0
+
+### 20 - Native Speech Recognition
+
+- Speech recognition is a global variable that lists in the browser
+  - Chrome -> window.webkitSpeechRecognition
+- `recognition.interimResults = true;` makes it populate while speaking, otherwise you must stop speaking before it returns anything
+- Once you finish talking recoginition will stop so to prevent this have an event listener: `recognition.addEventListener('end', recognition.start);` to recall the start function
+
+### 21 -
+
+### 22 -
+
+### 23 -
+
+### 24 -
+
+### 25 -
+
+### 26 -
+
+### 27 -
+
+### 28 -
+
+### 29 -
+
+### 30 -
