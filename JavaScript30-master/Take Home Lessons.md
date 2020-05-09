@@ -299,22 +299,31 @@
 - `recognition.interimResults = true;` makes it populate while speaking, otherwise you must stop speaking before it returns anything
 - Once you finish talking recoginition will stop so to prevent this have an event listener: `recognition.addEventListener('end', recognition.start);` to recall the start function
 
-### 21 -
+### 21 - Geolocation based Speedometer and Compass
 
-### 22 -
+- We cannot fake heading and speed so we are using an IOS simulator
+  - In Xcode, -> Xcode, Open Developer Tool, Simulator
+- Navigators geolocation
+  - `getCurrentPosition()` just gets the current location oncce
+  - we want `watchPosition()`
+    - Takes two functions: a success callback and fail callback(for when they say no to permissions)
+- Heading
+  - The number of degress relative to north
 
-### 23 -
+### 22 - Follow Along Links
 
-### 24 -
+### 23 - Speech synthesis
 
-### 25 -
+### 24 - Sticky Nav
 
-### 26 -
+### 25 - Event capture, Propagation, Bubbling and Once
 
-### 27 -
+### 26 - Stripe Follow Along Dropdown
 
-### 28 -
+### 27 - Click and Drag to Scroll
 
-### 29 -
+### 28 - Video Speed Controller UI
 
-### 30 -
+### 29 - Countdown Clock
+
+### 30 - Whack A Mole Game
