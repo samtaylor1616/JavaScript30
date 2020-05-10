@@ -26,4 +26,5 @@
 | 18. Tally String Times With Reduce | Used reduce to total the total video times |
 | 19. Unreal Webcam Fun | ![](./Images/cameraA.png) |
 | 20. Native Speech Recognition | ![](./Images/voice.png) |
-| 21. Geolocation based Speedometer and Compass | ![](./Images/geolocation.png)
+| 21. Geolocation based Speedometer and Compass | ![](./Images/geolocation.png) |
+| 22. Follow Along Links | ![](./Images/followLinkA.png) ![](./Images/followLinkB.png) |

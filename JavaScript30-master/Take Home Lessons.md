@@ -312,6 +312,15 @@
 
 ### 22 - Follow Along Links
 
+- First steps to understanding stripe follow along dropdown
+- `element.getBoundingClientRect()`
+  - Gives us all the information about where the element is on the page
+- Span with `transition: all 0.2s;` and us adjusting the width and height makes it grow gradually
+- After applying the width, height, and transform we may look done. However if you slighty scroll down you will see the highlighting element doesn't scroll and just stays in the inital location
+  - Solution: find how far the user has scrolled down and over
+  - `linkCoords.top + window.scrollY`
+  - `left: linkCoords.left + window.scrollX`
+
 ### 23 - Speech synthesis
 
 ### 24 - Sticky Nav
