@@ -28,3 +28,4 @@
 | 20. Native Speech Recognition | ![](./Images/voice.png) |
 | 21. Geolocation based Speedometer and Compass | ![](./Images/geolocation.png) |
 | 22. Follow Along Links | ![](./Images/followLinkA.png) ![](./Images/followLinkB.png) |
+| 23. Speech synthesis | ![](./Images/textVoiceA.png) ![](./Images/textVoiceB.png) |

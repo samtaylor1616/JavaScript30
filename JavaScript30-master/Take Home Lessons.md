@@ -323,6 +323,19 @@
 
 ### 23 - Speech synthesis
 
+- Text to voice - Comes in most browsers
+- Using the name attribute we choose to use rate, pitch, and text which aligns up with the property of SpeechSynthesisUtterance
+- SpeechSynthesisUtterance
+- speechSynthesis is a global variable
+  - `speechSynthesis.speak(pass it an utterate)`
+  - when speechSynthesis loads it will fire an event called voiceschanged
+- Setting the voice we cannot just set it to the name, but we have to find the voice in the voices array where the name matches
+  - `msg.voice = voices.find(voice => voice.name === this.value);`
+- Another way to call a function that requires a parameted
+  - `stopButton.addEventListener('click', () => {toggle(false);});`
+  - To this `stopButton.addEventListener('click', toggle.bind(null. false));`
+  - Or this `stopButton.addEventListener('click', () => toggle(false))`
+
 ### 24 - Sticky Nav
 
 ### 25 - Event capture, Propagation, Bubbling and Once
