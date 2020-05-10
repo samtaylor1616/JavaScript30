@@ -338,6 +338,26 @@
 
 ### 24 - Sticky Nav
 
+- On page load grab the location of the top of the nav bar
+- Once you add the class with the position now being fixed you'll notice a jump
+  - That is because that element is now 'floating' above the other elements and the other elements on the page will shift up to take that new place.
+  - Solution: add padding to the body when we set the position as fixed
+  - `document.body.style.paddingTop = nav.offsetHeight;`
+- Cannot animate width from 0 to auto so we used max-width from 0 to a bigger size so we could use our transition
+
+        li.logo {
+          max-width: 0;
+          overflow: hidden;
+          background: white;
+          transition: all .5s;
+          font-weight: 600;
+          font-size: 30px;
+        }
+
+        .fixed-nav li.logo {
+          max-width: 500px;
+        }
+
 ### 25 - Event capture, Propagation, Bubbling and Once
 
 ### 26 - Stripe Follow Along Dropdown

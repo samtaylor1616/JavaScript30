@@ -29,3 +29,4 @@
 | 21. Geolocation based Speedometer and Compass | ![](./Images/geolocation.png) |
 | 22. Follow Along Links | ![](./Images/followLinkA.png) ![](./Images/followLinkB.png) |
 | 23. Speech synthesis | ![](./Images/textVoiceA.png) ![](./Images/textVoiceB.png) |
+| 24. Sticky Nav | ![](./Images/navA.png) ![](./Images/navB.png) |
