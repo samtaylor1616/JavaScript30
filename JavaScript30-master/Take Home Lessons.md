@@ -416,6 +416,8 @@
 
 ### 27 - Click and Drag to Scroll
 
+- Use flags to control mouse down incase the user moves to another element and lifts up to mouse -> reset the flag on mouseleave
+
 ### 28 - Video Speed Controller UI
 
 ### 29 - Countdown Clock

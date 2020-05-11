@@ -31,4 +31,5 @@
 | 23. Speech synthesis | ![](./Images/textVoiceA.png) ![](./Images/textVoiceB.png) |
 | 24. Sticky Nav | ![](./Images/navA.png) ![](./Images/navB.png) |
 | 25 - Event capture, Propagation, Bubbling and Once | Used nested elements to learn about events firing and different options we can use to control them |
-| 26. Stripe Follow Along Dropdown | ![](./Images/navFinalA.png) ![](./Images/navFinalB.png) ![](./Images/navFinalC.png)
+| 26. Stripe Follow Along Dropdown | ![](./Images/navFinalA.png) ![](./Images/navFinalB.png) ![](./Images/navFinalC.png) |
+| 27. Click and Drag to Scroll | ![](./Images/dragScroll.png) |
