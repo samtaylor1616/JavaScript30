@@ -426,4 +426,25 @@
 
 ### 29 - Countdown Clock
 
+- `element.this.dataset.dataProperty`
+- Note: be careful when using setInterval because sometimes it just stops running
+- Also on iOS when you scroll it pauses your intervals
+  - `setInterval(() => seconds--, 1000)` however in the code we use something similar but prevents these problems for effecting our timer
+- We can't stop our interval unless we store it in a variable, which we can later manipulate
+  - In our if statement, if we only had return the interval would keep running, it just wouldn't console log our info
+- Using our interval the first time takes 1000ms -> therefor if we set our timer for 10 seconds we will only see 9, 8, ..., 0
+  - Solution call displayTimeLeft right before we initalise the timer
+- Browser tab in javascript is `document.title`
+- Convert a string to a number - `parseInt(str)`
+- Another way of selecting an element:
+
+  - If an element has a name property such as `<form name="customForm"/>`
+  - `<form name="customForm"><input name="minutes">...`
+    `
+  - You can access that element via `document.customForm` instead of using a query selector
+  - `document.customForm.minutes`
+  - Forms:
+    - e.preventDefault() to prevent the page from reloading
+    - this.reset() to reset the form back to its original state
+
 ### 30 - Whack A Mole Game
