@@ -448,3 +448,7 @@
     - this.reset() to reset the form back to its original state
 
 ### 30 - Whack A Mole Game
+
+- With randomly picking a hole out of 6 we have a pretty high chance of getting the same hole we previously had
+  - Solution: store the last selected hole and ensure the next one is not the last one
+- To prevent the game being won with someone using javascript you can use the `event.isTrusted` flag on the event
