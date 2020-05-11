@@ -390,6 +390,30 @@
 
 ### 26 - Stripe Follow Along Dropdown
 
+- `.cool > li` is all the list items inside the element with the class cool
+- `.dropdownBackground.open` is when an element with a dropdownBackground class also has a class of open
+- Events:
+  - mouseenter, mouseleave
+- Get the dropdown elements and display them
+- When you enter into a function, the value of _this_ changes
+  - However if you change it into an arrow function the value of _this_ is inherited from the parent
+- Hidding elements
+  - `Opacity: 0;` and `display: none;`
+  - Because you cannot go from opacity 0 to 1 and display none to display block
+- element.getBoundingClientRect() gives you information relative to where on the page it is so with the dropdowns we need to also known where the nav is so we can offset it
+
+        this.classList.add('trigger-enter');
+        setTimeout(() => {
+          if (this.classList.contains('trigger-enter')) {
+            this.classList.add('trigger-enter-active');
+          }
+        }, 150);
+
+        // Above is equalivant to below
+        setTimeout(() => {
+          this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active');
+        }, 150);
+
 ### 27 - Click and Drag to Scroll
 
 ### 28 - Video Speed Controller UI
