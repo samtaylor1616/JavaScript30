@@ -33,3 +33,4 @@
 | 25 - Event capture, Propagation, Bubbling and Once | Used nested elements to learn about events firing and different options we can use to control them |
 | 26. Stripe Follow Along Dropdown | ![](./Images/navFinalA.png) ![](./Images/navFinalB.png) ![](./Images/navFinalC.png) |
 | 27. Click and Drag to Scroll | ![](./Images/dragScroll.png) |
+| 28. Video Speed Controller UI | ![](./Images/speed.png) |

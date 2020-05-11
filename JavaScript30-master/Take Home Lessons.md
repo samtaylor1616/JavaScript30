@@ -420,6 +420,10 @@
 
 ### 28 - Video Speed Controller UI
 
+- Get the height of an element using `this.offsetHeight`
+- To 2 decimal places - `number.toFixed(2);`
+- video.playbackRate - is the speed of the video
+
 ### 29 - Countdown Clock
 
 ### 30 - Whack A Mole Game
