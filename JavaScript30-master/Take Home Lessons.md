@@ -360,6 +360,34 @@
 
 ### 25 - Event capture, Propagation, Bubbling and Once
 
+- Event listeners:
+
+  - `element.addEventListener(event, function, optionsObject)`
+  - If optionsObject = `{capture: true}` the function will not be run on the bubble up. Instead the function will be run on the capture down
+    - Instead of capturing down and bubbling up to get 3, 2, 1 it will be 1, 2, 3 where 3 is the most nested element
+    - By default it is false
+  - If optionsObject = `{once: true}`
+    - It will listen for a click and then unbinds itself (same as element.removeEventListener(event, function))
+    - This prevents any future clicks on the element
+    - Example of when you would want to use this is at the store checkout
+
+- Capture:
+
+  - When you click on an element that is nested within others it knows you clicked on the outer element, then the next down, and so on until it gets to the level of element you clicked on
+  - Ripples top-down and captures all of the events. From there since it is at the bottom it bubbles up
+
+- Bubbling: the browser will figure out what you clicked on but it will also trigger other clicks
+  - For example, if we click the most inner element of three rectangles stacked on top of each other
+    - It will call the event listener on the most inner, then the second most inner, and so on
+    - It calls each element that has the event handler set up
+  - If you are listening for a click on multiple nested elements then it will trigger on all of them
+  - Bubble-up, triggering the events as you go up
+- Stop Propagation
+  - On the event you can call `event.stopPropagation()` which will stop the event from bubbling up
+  - You can use this with the capture option set to true
+    - This will call the outer most element that wraps the element that was clicked and call the function on it.
+    - When the function executes the stopPropagation function will prevent it from going down into further elements
+
 ### 26 - Stripe Follow Along Dropdown
 
 ### 27 - Click and Drag to Scroll
