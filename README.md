@@ -35,4 +35,4 @@
 | 27. Click and Drag to Scroll | ![](./Images/dragScroll.png) |
 | 28. Video Speed Controller UI | ![](./Images/speed.png) |
 | 29. Countdown Clock | ![](./Images/countdown.png) |
-| 30. Whack A Mole Game | |
+| 30. Whack A Mole Game | ![](./Images/mole.png) |
